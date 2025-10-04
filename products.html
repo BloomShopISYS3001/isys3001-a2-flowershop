@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>鲜花系列 - 花语轩</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-seedling"></i> 花语轩
+            </div>
+            <nav class="nav-links">
+                <a href="index.html">首页</a>
+                <a href="products.html" class="active">鲜花系列</a>
+                <a href="cart.html">
+                    <i class="fas fa-shopping-cart"></i> 购物车
+                    <span id="cart-count">0</span>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 商品列表区域 -->
+    <section class="products-page">
+        <div class="container">
+            <h1>鲜花系列</h1>
+            
+            <!-- 分类筛选 -->
+            <div class="filters">
+                <button class="filter-btn active" data-category="all">全部</button>
+                <button class="filter-btn" data-category="爱情">爱情鲜花</button>
+                <button class="filter-btn" data-category="生日">生日鲜花</button>
+                <button class="filter-btn" data-category="祝贺">祝贺鲜花</button>
+            </div>
+            
+            <!-- 商品列表 -->
+            <div class="flower-list" id="all-flowers">
+                <!-- 花束会通过JavaScript动态生成 -->
+            </div>
+        </div>
+    </section>
+
+    <script src="js/flowers.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/products.js"></script>
+</body>
+</html>

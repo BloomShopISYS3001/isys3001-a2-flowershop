@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>花语轩 - 网上鲜花商城</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- 引入Font Awesome图标库 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-seedling"></i> 花语轩
+            </div>
+            <nav class="nav-links">
+                <a href="index.html" class="active">首页</a>
+                <a href="products.html">鲜花系列</a>
+                <a href="cart.html">
+                    <i class="fas fa-shopping-cart"></i> 购物车
+                    <span id="cart-count">0</span>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 主横幅 -->
+    <section class="hero">
+        <div class="container">
+            <h1>用鲜花传递美好情感</h1>
+            <p>精选当季鲜花，专业花艺师精心搭配</p>
+            <a href="products.html" class="btn">立即选购</a>
+        </div>
+    </section>
+
+    <!-- 分类展示 -->
+    <section class="categories">
+        <div class="container">
+            <h2>按场合选择</h2>
+            <div class="category-list">
+                <div class="category-item">
+                    <img src="images/rose.jpg" alt="爱情鲜花">
+                    <h3>爱情鲜花</h3>
+                </div>
+                <div class="category-item">
+                    <img src="images/birthday.jpg" alt="生日鲜花">
+                    <h3>生日鲜花</h3>
+                </div>
+                <div class="category-item">
+                    <img src="images/congrats.jpg" alt="祝贺鲜花">
+                    <h3>祝贺鲜花</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 推荐花束 -->
+    <section class="featured-flowers">
+        <div class="container">
+            <h2>推荐花束</h2>
+            <div class="flower-list" id="flower-list">
+                <!-- 花束会通过JavaScript动态生成 -->
+            </div>
+        </div>
+    </section>
+
+    <script src="js/flowers.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
