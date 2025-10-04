@@ -33,7 +33,7 @@ function renderAllFlowers(category = 'all') {
                         data-name="${flower.name}"
                         data-price="${flower.price}"
                         data-image="${flower.image}">
-                    加入购物车
+                    Add to Cart
                 </button>
             </div>
         `;

@@ -2,58 +2,58 @@
 const flowers = [
     {
         id: 1,
-        name: "浅蓝玫瑰束",
+        name: "Light Blue Rose Bouquet",
         price: 219,
-        category: "爱情",
+        category: "Love",
         image: "images/light_blue_rose_bouquet.jpg",
-        description: "淡雅蓝色玫瑰，搭配尤加利叶，象征纯洁的爱"
+        description: "Delicate blue roses paired with eucalyptus leaves, symbolizing pure love."
     },
     {
         id: 2,
-        name: "红桃玫瑰束",
+        name: "Red Peach Rose Bouquet",
         price: 199,
-        category: "爱情",
+        category: "Love",
         image: "images/red_peach_rose_bouquet.jpg",
-        description: "红桃色玫瑰，搭配满天星，传递热情与浪漫"
+        description: "Red peach-colored roses with baby's breath, conveying passion and romance."
     },
     {
         id: 3,
-        name: "向日葵混合束",
+        name: "Sunflower Mixed Bouquet",
         price: 179,
-        category: "生日",
+        category: "Birthday",
         image: "images/sunflower_mixed_bouquet.jpg",
-        description: "向日葵与小菊混合，象征阳光与活力"
+        description: "Sunflowers mixed with small chrysanthemums, symbolizing sunshine and vitality."
     },
     {
         id: 4,
-        name: "紫白玫瑰束",
+        name: "Purple & White Rose Bouquet",
         price: 239,
-        category: "祝贺",
+        category: "Congratulations",
         image: "images/purple_white_rose_bouquet.jpg",
-        description: "紫色与白色玫瑰搭配，寓意高贵与祝福"
+        description: "Purple and white roses paired together, representing nobility and blessings."
     },
     {
         id: 5,
-        name: "粉色心形玫瑰",
+        name: "Pink Heart-shaped Rose Bouquet",
         price: 259,
-        category: "爱情",
+        category: "Love",
         image: "images/pink_heart_rose_bouquet.jpg",
-        description: "心形排列的粉玫瑰，象征甜蜜的爱恋"
+        description: "Pink roses arranged in a heart shape, symbolizing sweet love."
     },
     {
         id: 6,
-        name: "粉色康乃馨束",
+        name: "Pink Carnation Bouquet",
         price: 169,
-        category: "生日",
+        category: "Birthday",
         image: "images/pink_carnation_bouquet.jpg",
-        description: "粉色康乃馨为主，适合生日与感恩场合"
+        description: "Primarily pink carnations, suitable for birthdays and occasions of gratitude."
     },
     {
         id: 7,
-        name: "白玫瑰香奈儿束",
+        name: "White Rose Chanel-style Bouquet",
         price: 299,
-        category: "祝贺",
+        category: "Congratulations",
         image: "images/white_rose_chanel_bouquet.jpg",
-        description: "白玫瑰与香奈儿风格包装，高端典雅"
+        description: "White roses with Chanel-style packaging, high-end and elegant."
     }
 ];

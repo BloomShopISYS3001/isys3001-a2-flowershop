@@ -140,7 +140,7 @@ function bindRemoveEvents() {
 
 // 清空购物车
 function clearCart() {
-    if (confirm('确定要清空购物车吗？')) {
+    if (confirm('Are you sure you want to empty your shopping cart? ')) {
         localStorage.removeItem('cart');
         renderCart();
         updateCartCount();
@@ -149,5 +149,5 @@ function clearCart() {
 
 // 结算
 function checkout() {
-    alert('结算功能：此处将跳转到订单确认页面');
+    alert('The order has been submitted successfully! Your flowers will be delivered as soon as possible～');
 }

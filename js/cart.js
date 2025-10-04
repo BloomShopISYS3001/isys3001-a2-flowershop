@@ -42,7 +42,7 @@ function addToCart(event) {
     saveCart(cart);
     
     // 显示提示
-    alert(`${flowerName} 已添加到购物车！`);
+    alert(`${flowerName} Added to shopping cart!`);
 }
 
 // 更新购物车数量显示
